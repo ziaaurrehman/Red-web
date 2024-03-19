@@ -1,0 +1,241 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Lato", sans-serif;
+}
+
+.Navbar {
+  height: 83px;
+  justify-content: space-between;
+  display: flex;
+  align-items: center;
+  background-color: transparent;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+  width: 100% !important;
+  position: sticky;
+  padding-left: 100px;
+  padding-right: 100px;
+  border-top: 1.5px solid #B7B9BB;
+  border-bottom: 1.0px solid #B7B9BB;
+
+  z-index: 2000;
+}
+.search_bar{
+    padding-left: 40px;
+}
+*,
+::before,
+::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #fff;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 500px;
+  height: 300px;
+  background: #f1f1f1;
+  margin: 100px auto 0;
+  word-break: break-all;
+  border: 1px solid rgba(0, 0, 0, 0.274);
+}
+
+button {
+  border: none;
+}
+.content-tabs {
+  flex-grow: 1;
+}
+.content {
+  background: white;
+  padding: 20px;
+  width: 100%;
+  height: 100%;
+  display: none;
+}
+.items{
+display: flex;
+align-items: center;
+}
+.content h2 {
+  padding: 0px 0 5px 0px;
+}
+
+
+.Navbar > .nav-logo {
+  font-weight: 700;
+  font-size: 21px;
+  margin: 15px;
+  color: #1d7e49;
+}
+
+
+.Navbar > .nav-toggle {
+  display: none;
+}
+
+
+
+@media (max-width: 768px) {
+  .Navbar > .nav-items {
+    position: absolute;
+    top: 83px;
+    display: flex;
+    flex-direction: column;
+    left: 0;
+    width: 100%;
+    height: 280px;
+    transform: translateX(-100%);
+    transition: all 0.45s;
+  }
+  .Navbar {
+    margin-top: 0;
+  }
+
+  .Navbar > .nav-items > a::before {
+    background: transparent;
+  }
+
+  .Navbar > .nav-items.open {
+    transform: translateX(0);
+    background-color: #160707;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .Navbar > .nav-toggle {
+    display: flex;
+    width: 50px;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+  }
+  
+
+  .nav-toggle > .bar {
+    position: relative;
+    width: 32px;
+    height: 2px;
+    background: #fff;
+    transition: all 0.45s ease-in-out;
+  }
+
+
+  .nav-toggle > .bar::before,
+  .nav-toggle > .bar::after {
+    content: "";
+    position: absolute;
+    height: 2px;
+    background: #fff;
+    border-radius: 2px;
+    transition: all 0.45s ease-in-out;
+  }
+
+  .nav-toggle > .bar::before {
+    width: 25px;
+    transform: translateY(-8px);
+    right: 0;
+  }
+
+  .nav-toggle > .bar::after {
+    width: 32px;
+    transform: translateY(8px);
+  }
+  .nav2{
+    margin-top: 0 !important;
+  }
+
+  .nav-toggle.open > .bar {
+    transform: translateX(-40px);
+    background: transparent;
+  }
+
+  .nav-toggle.open > .bar::before {
+    width: 32px;
+    transform: rotate(45deg) translate(26px, -26px);
+  }
+
+
+  .nav-toggle.open > .bar::after {
+    transform: rotate(-45deg) translate(26px, 26px);
+  }
+  @media only screen and (max-width: 576px) {
+    .div_1{
+      flex-direction: column;
+    }
+    .field_css{
+margin-bottom: 30px;
+    }
+    .logo{
+      height: 38px;
+    }
+    .Navbar{
+      padding-left: 49px;
+    padding-right: 19px;
+    }
+    .data_form {
+      padding-top: 20px;
+    }
+    .fix_W{
+      margin-left: auto;
+      margin-right: auto;
+      border-top: none !important;
+    }
+    .mbl_v{
+      padding-bottom: 0 !important;
+      padding-top: 0 !important;
+     }
+     .title2{
+font-size: 28px;
+     }
+.main_container{
+  height: auto;
+}
+     .section_gallery{
+padding-top: 47px;
+     }
+     .child3{
+      width: 65%;
+     }
+     .child3 img {
+      width: 100px;
+     }
+     .text_align{
+      font-size: 14px;
+     }
+     .section{
+      padding-bottom: 300px;
+     }
+     .child1 img {
+      height: 170px !important;
+     }
+     .title6{
+      font-size: 26px;
+      padding-top: 20px;
+      padding-left: 10px;
+      padding-right: 10px;
+     }
+     .child2 img {
+      width: 115px;
+     }
+     .title_2 img{
+      display: none;
+     }
+     .main_container2{
+      height: auto;
+     }
+  }
+
+ 
+}
