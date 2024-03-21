@@ -8,11 +8,11 @@ import Services from './Pages/Services';
 function App() {
   return (
     <div className="App">
-     {/* <LandnigPage/>   */}
+     <LandnigPage/>  
       {/* <Gallery/>     */}
       {/* <Contactpage/>   */}
       {/* <ContactForm/>         */}
-     <Services/>
+     {/* <Services/> */}
     </div>
   );
 }

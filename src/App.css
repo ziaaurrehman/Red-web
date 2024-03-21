@@ -243,10 +243,14 @@ background-image: url(/public/images/Frame\ 11.png);
   .section{
     padding-top: 180px;
   }
+ 
 }
 @media (max-width: 1400px) {
   .section{
     padding-top: 120px;
+  }
+  .Navbar{
+    padding-right: 150px;
   }
 }
 @media (max-width: 768px) {

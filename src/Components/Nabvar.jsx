@@ -18,7 +18,7 @@ const Nabvar = () => {
             <img className="logo" src="/images/Logo (3).svg" alt="" />
           </a>
           <div className={`nav-items items ${isOpen && "open"}`}>
-<div class="dropdown">
+<div class="dropdown div__center">
   <div  class="left_off">LIFT-OFF</div>
 
 </div>

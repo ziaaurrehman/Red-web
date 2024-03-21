@@ -17,7 +17,7 @@
   width: 100% !important;
   position: sticky;
   padding-left: 100px;
-  padding-right: 100px;
+  padding-right: 240px;
   border-top: 1.5px solid #B7B9BB;
   border-bottom: 1.0px solid #B7B9BB;
 
@@ -84,7 +84,9 @@ align-items: center;
   display: none;
 }
 
-
+@media (max-width: 1600px) {
+ 
+}
 
 @media (max-width: 768px) {
   .Navbar > .nav-items {
@@ -114,7 +116,7 @@ font-size: 25px;
 
   .Navbar > .nav-items.open {
     transform: translateX(0);
-    background-color: #160707;
+    background-color: #000;
     background-size: cover;
     background-repeat: no-repeat;
     align-items: start;
@@ -248,6 +250,10 @@ padding-top: 47px;
      }
      .main_container2{
       height: auto;
+     }
+     .div__center{
+      margin-left: auto;
+      margin-right: auto;
      }
   }
 
