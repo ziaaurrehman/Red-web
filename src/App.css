@@ -196,6 +196,9 @@ border-bottom: 3px solid #fff;
   position: absolute;
   margin-top: 60px;
 }
+.text_align{
+  font-family: exo-md;
+}
 .field_css{
 background-color: #A99898;
 padding-left: 10px;
@@ -252,6 +255,7 @@ background-image: url(/public/images/Frame\ 11.png);
   }
   .text_align{
     font-size: 20px;
+    font-family: exo-md;
   }
  .section2{
 padding-top: 0;
