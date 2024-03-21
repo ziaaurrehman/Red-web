@@ -12,12 +12,12 @@ a:hover {
   text-decoration: none;
 }
 @font-face {
-  font-family: thin-italic;
-  src: url(/public/Fonts/Inter-Thin.ttf);
+  font-family: exo-thin;
+  src: url(/public/Fonts/Exo-Thin.ttf);
 }
 @font-face {
-  font-family: inter;
-  src: url(/public/Fonts/Inter-Regular.ttf);
+  font-family: exo-md;
+  src: url(/public/Fonts/Exo2-Regular.ttf);
 }
 .main_container{
 background-image: url(/public/images/LandingPage-Background.png);
@@ -64,11 +64,12 @@ background-image: url(/public/images/LandingPage-Background.png);
   border-top: 4px solid #fff;
   border-bottom: 4px solid #fff;
   font-size: 30px;
-  font-family: thin-italic;
+  font-family: exo-thin;
 }
 .services{
   color: #fff;
   font-size: 36px;
+  font-family:exo-md;
  padding-left: 35px;
  padding-right: 35px;
 }
@@ -79,6 +80,7 @@ background-image: url(/public/images/LandingPage-Background.png);
 .gallery{
   color: #fff;
   font-size: 36px;
+  font-family:exo-md;
 }
 .gallery:hover{
   color: #E21B3F;
@@ -92,6 +94,9 @@ background-image: url(/public/images/LandingPage-Background.png);
   flex-wrap: wrap;
   justify-content: space-evenly;
 align-items: center;  
+}
+.title6{
+  font-family: exo-md;
 }
 .child2{
   color: #fff;
@@ -108,7 +113,7 @@ align-items: center;
 .title2{
   font-size: 60px;
   color: #fff;
-  font-family: thin-italic;
+  font-family: exo-thin;
 }
 .child3{
   color: #fff;
@@ -164,13 +169,13 @@ align-items: center;
 }
 .title_1{
   color: #D9D9D9;
-  font-family: thin-italic;
+  font-family: exo-thin;
   font-size: 40px;
   text-align: center;
 }
 .title_2{
   color: #D9D9D9;
-  font-family: thin-italic;
+  font-family: exo-thin;
   font-size: 40px;
   text-align: center;
   padding-top: 30px;
@@ -179,9 +184,9 @@ align-items: center;
 .title_3{
 margin-top: 40px;
 color: #fff;
-font-family: thin-italic;
+font-family: exo-thin;
 font-size: 30px;
-width: 173px;
+width: 186px;
 margin-left: auto;
 margin-right: auto;
 border-top: 3px solid #fff;
@@ -230,6 +235,16 @@ background-image: url(/public/images/Frame\ 11.png);
 }
 .contact{
   display: none;
+}
+@media (max-width: 1600px) {
+  .section{
+    padding-top: 180px;
+  }
+}
+@media (max-width: 1400px) {
+  .section{
+    padding-top: 120px;
+  }
 }
 @media (max-width: 768px) {
   .cards_Section{

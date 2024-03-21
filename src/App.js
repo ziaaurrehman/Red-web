@@ -8,9 +8,9 @@ import Services from './Pages/Services';
 function App() {
   return (
     <div className="App">
-     <LandnigPage/>  
+     {/* <LandnigPage/>   */}
       {/* <Gallery/>     */}
-      {/* <Contactpage/>   */}
+      <Contactpage/>  
       {/* <ContactForm/>         */}
      {/* <Services/> */}
     </div>
